@@ -141,3 +141,11 @@ let result = numbers.reduce((sum, current) =>{
     })
 
 console.log(result)
+
+//destructuring
+
+let name = "kudzanayi dzvairo".split(" ")
+
+let [firstName, lastName] = name 
+
+console.log(firstName, lastName)
